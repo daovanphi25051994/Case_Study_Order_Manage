@@ -1,0 +1,126 @@
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 70px;
+    background: gainsboro;
+    text-align: center;
+    line-height: 70px;
+    color: red;
+}
+
+form {
+    width: 450px;
+    height: 560px;
+    border: solid 1px gainsboro;
+    margin: 30px auto;
+    text-align: center;
+    background: whitesmoke;
+    border-radius: 5px;
+}
+
+.phone-number {
+    width: 400px;
+    height: 50px;
+    background: green;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 7px;
+}
+.facebook {
+    width: 400px;
+    height: 50px;
+    background: blue;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 7px;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+ #user-name {
+     width: 370px;
+     margin: 5px auto;
+     height: 40px;
+     border-radius: 5px;
+     padding-left: 30px;
+     border: solid 1px gainsboro;
+     font-size: 17px;
+ }
+
+ #password {
+     width: 370px;
+     margin: 15px auto;
+     height: 40px;
+     border-radius: 5px;
+     padding-left: 30px;
+     border: solid 1px gainsboro;
+     font-size: 17px;
+ }
+
+ .save-password {
+     float: left;
+    margin-left: 20px;
+     font-size: 20px;
+     color: gray;
+ }
+.save-password input{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.forgot-password {
+    color: blue;
+    margin-left: 95px;
+}
+button {
+    clear: left;
+    width: 400px;
+    height: 50px;
+    background: dodgerblue;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 7px;
+    color: white;
+    font-size: 19px;
+    border: none;
+}
+.singup {
+    color: blue;
+}
+form p {
+    font-size: 18px;
+    color: gray;
+}
+
+.footer {
+    margin-top: 195px;
+    height: 85px;
+    background: gainsboro;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+.footer a{
+    color: blue;
+    margin:0 50px;
+}
+
+.footer p{
+    margin: 5px;
+}
+
+
+
+
