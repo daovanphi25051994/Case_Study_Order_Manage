@@ -106,7 +106,7 @@ form p {
 .footer {
     margin-top: 195px;
     height: 85px;
-    background: gainsboro;
+    background: beige;
     text-align: center;
     padding-top: 15px;
 }
@@ -119,6 +119,7 @@ form p {
 
 .footer p{
     margin: 5px;
+    color: gray;
 }
 
 

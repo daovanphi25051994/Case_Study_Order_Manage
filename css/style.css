@@ -1,0 +1,26 @@
+.container {
+    background: gainsboro;
+}
+td, th {
+    text-align: center;
+    border-collapse: collapse;
+    padding: 20px;
+    border: blue 1px solid;
+}
+img {
+    height: 400px;
+    width: 400px;
+}
+
+#bill {
+    position: fixed;
+    top: 9px;
+    left: 1380px;
+    width: 550px;
+    min-height: 600px;
+    background: green;
+    height: auto;
+}
+table {
+    width: 550px;
+}
