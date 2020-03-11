@@ -14,7 +14,7 @@
             <h1>LUCY</h1>
         </div>
         <div class="content">
-            <form>
+            <form class="form">
                 <h2>Đăng nhập LUCY</h2>
                 <div class="phone-number"><a href="#">ĐĂNG NHẬP BẰNG SỐ ĐIỆN THOẠI</a></div>
                 <div class="facebook"><a href="#">ĐĂNG NHẬP BẰNG FACEBOOK</a></div>
@@ -23,7 +23,8 @@
                 <input id="password" type="password" placeholder="Mật khẩu"><br>
                <label class="save-password"> <input type="checkbox" name="saveSingin"> Lưu đăng nhập</label>
                 <a class="forgot-password" href="index.html">Quên mật khẩu? </a><br>
-                <button onclick="login(); return false;">Đăng nhập</button>
+                <button id="btn-login">Đăng nhập</button>
+                <p id="home"><div class='btn-home'><a href='../html/index.html'>Trang chủ</a></div></p>
                 <p>Chưa có tài khoản tại Lucy.vn? <a class="singup" href="register.html">Đăng ký</a></p>
             </form>
         </div>
@@ -34,5 +35,7 @@
         </div>
     </div>
     <script src="../js/login.js"></script>
+    <script src="../js/user.js"></script>
+    <script src="../js/register.js"></script>
 </body>
 </html>

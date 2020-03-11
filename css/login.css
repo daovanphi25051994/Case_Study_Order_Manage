@@ -11,7 +11,7 @@
     color: red;
 }
 
-form {
+.form {
     width: 450px;
     height: 560px;
     border: solid 1px gainsboro;
@@ -98,7 +98,7 @@ button {
 .singup {
     color: blue;
 }
-form p {
+.form p {
     font-size: 18px;
     color: gray;
 }
@@ -110,7 +110,19 @@ form p {
     text-align: center;
     padding-top: 15px;
 }
-
+.btn-home {
+    height: 30px;
+    width: 100px;
+    background: blue;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 auto;
+}
+.btn-home:hover {
+    background: orange;
+    color: red;
+}
 
 .footer a{
     color: blue;

@@ -7,14 +7,36 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
     <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/bills.js"></script>
+    <script src="../js/drinks.js"></script>
+    <script src="../js/admin.js"></script>
+    <script src="../js/register.js"></script>
 </head>
 <body onload="showDrinks()">
 <div class="container">
+    <div class="header">
+        <div class="header-nav">
+            <ul>
+                <li><a href="register.html">Signin</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="" style="border: none">Logout</a></li>
+            </ul>
+        </div>
+        <h1>Lucy</h1>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">hot drinks</a></li>
+            <li><a href="">new drinks</a></li>
+            <li><a href="">my order</a></li>
+            <li><a href="">feed back</a></li>
+        </ul>
+    </div>
     <div id="drinks-table">
-
     </div>
     <div id="bill"></div>
 </div>
-<script src="../js/app.js"></script>
+<script type="module" src="../js/app.js"></script>
 </body>
 </html>

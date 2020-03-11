@@ -1,0 +1,12 @@
+table {
+    text-align: center;
+    min-height: 500px;
+}
+td {
+    width: 900px;
+    background: #9e9e9e;
+}
+img {
+    width: 200px;
+    height: 200px;
+}

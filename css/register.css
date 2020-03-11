@@ -12,7 +12,7 @@
     color: red;
 }
 
-form {
+.form {
     width: 450px;
     height: 560px;
     border: solid 1px gainsboro;
@@ -59,7 +59,7 @@ form {
     outline: none;
 }
 
-button {
+#btn-register {
     width: 400px;
     height: 50px;
     background: dodgerblue;
@@ -71,8 +71,11 @@ button {
     font-size: 19px;
     border: none;
 }
+#btn-register:hover {
+    background: #da4b3a;
+}
 
-form p {
+.form p {
     font-size: 18px;
     color: gray;
 }
