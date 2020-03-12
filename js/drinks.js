@@ -4,20 +4,14 @@ let Drink = function (image, nameDrink, amount, price) {
     this.amount = amount;
     this.price = price;
 };
-let storageKeyOfDrinks = "arrayDrinks";
-let dataStringOfDrink = localStorage.getItem(storageKeyOfDrinks);
-let arrayDrinks = [];
-if (dataStringOfDrink) {
-    arrayDrinks = JSON.parse(dataStringOfDrink);
-} else {
-    arrayDrinks = [];
-}
 
+let arrayDrinks = [];
 const DEFAULT_COLUMNS = 3;
 const DEFAULT_ROWS = 3;
 for (let i = 0; i < DEFAULT_COLUMNS; i++) {
     arrayDrinks[i] = [];
 }
+
 let drink = new Drink("../images/drink10.jpg", "Cafe latte", 10, 15000)
 let drink2 = new Drink("../images/drink2.jpg", "Trà sữa chân trâu đường đen", 20, 25000)
 let drink3 = new Drink("../images/drink3.jpg", "Trà phô mai kem sữa", 50, 35000)
@@ -40,17 +34,16 @@ arrayDrinks[2][2] = drink9;
 
 
 function showDrinks() {
-    localStorage.setItem(storageKeyOfDrinks, JSON.stringify(arrayDrinks));
-    let arr = localStorage.getItem(storageKeyOfDrinks);
     let content = "<table>";
     for (let i = 0; i < DEFAULT_ROWS; i++) {
         content += "<tr>";
         for (let j = 0; j < DEFAULT_COLUMNS; j++) {
             content += "<td><img src=" + arrayDrinks[i][j].image + "><h2>" + arrayDrinks[i][j].nameDrink + "</h2><p>Amount: " + arrayDrinks[i][j].amount + "</p><p>Price: " + arrayDrinks[i][j].price + " VND</p>" +
-                "<input id='id" + i + j + "'><button onclick='plusAmount(" + i + "," + j + ")'>+</button><button onclick='minusAmount(" + i + "," + j + ")'>-</button></td>"
+                "<input value='0' id='id" + i + j + "'><button onclick='plusAmount(" + i + "," + j + ")'>+</button><button onclick='minusAmount(" + i + "," + j + ")'>-</button></td>"
         }
         content += "</tr>"
     }
     content += "</table>";
     document.getElementById("drinks-table").innerHTML = content;
 }
+

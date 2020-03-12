@@ -1,6 +1,5 @@
 let loginBtn = document.getElementById("btn-login");
 loginBtn.addEventListener("click", login);
-
 function login() {
     let phoneNumber = document.getElementById("user-name").value;
     let password = document.getElementById("password").value;

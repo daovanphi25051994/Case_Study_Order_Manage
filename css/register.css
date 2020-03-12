@@ -14,7 +14,7 @@
 
 .form {
     width: 450px;
-    height: 560px;
+    height: 620px;
     border: solid 1px gainsboro;
     margin: 30px auto;
     text-align: center;
@@ -24,7 +24,7 @@
 
 #user-name {
     width: 370px;
-    margin: 5px auto;
+    margin: 10px auto;
     height: 40px;
     border-radius: 5px;
     padding-left: 30px;
@@ -34,7 +34,7 @@
 
 #password1 {
     width: 370px;
-    margin: 15px auto;
+    margin: 10px auto;
     height: 40px;
     border-radius: 5px;
     padding-left: 30px;
@@ -44,7 +44,7 @@
 
 #password2 {
     width: 370px;
-    margin: 15px auto;
+    margin: 10px auto;
     height: 40px;
     border-radius: 5px;
     padding-left: 30px;
@@ -57,6 +57,7 @@
     height: 80px;
     border-radius: 10px;
     outline: none;
+    margin-top: 10px;
 }
 
 #btn-register {
@@ -71,6 +72,7 @@
     font-size: 19px;
     border: none;
 }
+
 #btn-register:hover {
     background: #da4b3a;
 }
@@ -98,6 +100,30 @@
     color: gray;
 }
 
+.label-input1 {
+    margin-right: 310px;
+    font-size: 20px;
+
+}
+
+.label-input2 {
+    margin-right: 310px;
+    font-size: 20px;
+}
+
+.label-input3 {
+    margin-right: 230px;
+    font-size: 20px;
+}
+
+.label-input4 {
+    margin-right: 330px;
+    font-size: 20px;
+}
+
+label span {
+    color: red;
+}
 
 
 
