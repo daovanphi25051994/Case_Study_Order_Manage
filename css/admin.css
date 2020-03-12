@@ -36,3 +36,7 @@ input:hover {
     color: #2e2e2e;
 }
 
+p {
+    font-weight: bold;
+}
+

@@ -21,10 +21,10 @@ function showBill() {
     for (let i = 0; i < arrayBills.length; i++) {
         totalMoney += arrayBills[i].sumMoney;
         content += "<tr>";
-        content += "<td>" + arrayBills[i].nameDrink + "</td><td>" + arrayBills[i].amount + "</td><td>" + arrayBills[i].sumMoney + "</td>";
+        content += "<td>" + arrayBills[i].nameDrink + "</td><td>" + arrayBills[i].amount + "</td><td>" + arrayBills[i].sumMoney + " VND</td>";
         content += "</tr>"
     }
-    content += "<tr></tr><td>total:</td><td colspan='2'>" + totalMoney + "</td></tr><tr><td colspan='3'><button onclick='buyDrinks()'>Mua</button></td></tr>" +
+    content += "<tr></tr><td>total:</td><td colspan='2'>" + totalMoney + " VND</td></tr><tr><td colspan='3'><button onclick='buyDrinks()'>Mua</button></td></tr>" +
         "<tr><td colspan='3'><p id='confirm-message'></p></td></tr></table>";
     document.getElementById("bill").innerHTML = content;
 }
@@ -90,6 +90,7 @@ function buyDrinks() {
     if (isConfirm && (arrayBills.length > 0)) {
         let message = "Cảm ơn quý khách đã đặt đồ uống tại Lucy." + "<br>" + "Đồ uống của quý khách sẽ được gửi tới trong vài phút";
         document.getElementById("confirm-message").innerHTML = message;
+        document.getElementById("confirm-message").style.color = "blue";
         arrayOrders.push(arrayBills);
         localStorage.setItem(storageKeyOfBill, JSON.stringify(arrayBills));
         localStorage.setItem(storageKeyOfOrder, JSON.stringify(arrayOrders));

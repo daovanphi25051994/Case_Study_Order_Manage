@@ -34,6 +34,8 @@
 }
 h1 {
     color: orange;
+    font-size: 30px;
+    line-height: 20px;
 }
 
 .nav{
@@ -77,12 +79,45 @@ img {
 #bill {
     position: fixed;
     top: 145px;
-    left: 1200px;
-    width: 370px;
-    min-height: 600px;
+    left: 1150px;
+    width: 430px;
+    min-height: 550px;
     background: #eee;
     height: auto;
 }
 table {
-    width: 370px;
+    width: 430px;
 }
+
+button {
+    width: 50px;
+    height: 30px;
+    background: gray;
+    border: none;
+    border-radius: 5px;
+    margin: 0 3px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+button:hover {
+    background: #0099ff;
+    color: orange;
+}
+input {
+    width: 50px;
+    height: 23px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.footer {
+    text-align: center;
+    background: #eeeeee;
+    font-size: 14px;
+}
+.footer p {
+    margin: 10px;
+}
+
+

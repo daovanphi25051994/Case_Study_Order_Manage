@@ -6,21 +6,19 @@ let Drink = function (image, nameDrink, amount, price) {
 };
 
 let arrayDrinks = [];
-const DEFAULT_COLUMNS = 3;
-const DEFAULT_ROWS = 3;
 for (let i = 0; i < DEFAULT_COLUMNS; i++) {
     arrayDrinks[i] = [];
 }
 
-let drink = new Drink("../images/drink10.jpg", "Cafe latte", 10, 15000)
-let drink2 = new Drink("../images/drink2.jpg", "Trà sữa chân trâu đường đen", 20, 25000)
-let drink3 = new Drink("../images/drink3.jpg", "Trà phô mai kem sữa", 50, 35000)
-let drink4 = new Drink("../images/drink4.jpg", "Trà hoa quả", 35, 20000)
-let drink5 = new Drink("../images/drink5.jpg", "Matcha đá say", 30, 20000)
-let drink6 = new Drink("../images/drink6.jpg", "Trà đào chanh sả", 20, 25000)
-let drink7 = new Drink("../images/drink7.jpg", "Trà hoa quả nhiệt đới", 10, 15000)
-let drink8 = new Drink("../images/drink8.jpg", "Trà sữa gạo rang hàn quốc", 20, 15000)
-let drink9 = new Drink("../images/drink9.jpg", "Trà sữa hokkaido", 30, 10000)
+let drink = new Drink("../images/drink10.jpg", "Cafe latte", 10, 15000);
+let drink2 = new Drink("../images/drink2.jpg", "Trà sữa chân trâu đường đen", 20, 25000);
+let drink3 = new Drink("../images/drink3.jpg", "Trà phô mai kem sữa", 50, 35000);
+let drink4 = new Drink("../images/drink4.jpg", "Trà hoa quả", 35, 20000);
+let drink5 = new Drink("../images/drink5.jpg", "Matcha đá say", 30, 20000);
+let drink6 = new Drink("../images/drink6.jpg", "Trà đào chanh sả", 20, 25000);
+let drink7 = new Drink("../images/drink7.jpg", "Trà hoa quả nhiệt đới", 10, 15000);
+let drink8 = new Drink("../images/drink8.jpg", "Trà sữa gạo rang hàn quốc", 20, 15000);
+let drink9 = new Drink("../images/drink9.jpg", "Trà sữa hokkaido", 30, 10000);
 
 arrayDrinks[0][0] = drink;
 arrayDrinks[0][1] = drink2;
