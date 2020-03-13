@@ -37,7 +37,7 @@ function register() {
             arrayUsers.push(user);
             alert("Đăng ký thành công!!")
             localStorage.setItem(storageKey, JSON.stringify(arrayUsers));
-            document.getElementById("form").action = "login.html";
+            document.getElementById("form").action = "./login.html";
         } else {
             alert("Mã OTP sai!!")
         }
