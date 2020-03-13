@@ -1,2 +1,4 @@
 const DEFAULT_COLUMNS = 3;
 const DEFAULT_ROWS = 3;
+const ADMIN_ACCOUNT = "admin";
+const ADMIN_PASSWORD = "123456";

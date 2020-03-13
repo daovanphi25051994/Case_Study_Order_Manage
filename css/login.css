@@ -11,7 +11,7 @@
     color: red;
 }
 
-.form {
+#form {
     width: 450px;
     height: 620px;
     border: solid 1px gainsboro;

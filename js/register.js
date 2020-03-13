@@ -29,7 +29,7 @@ function register() {
     }
     if (phoneNumber != "" && password1 != "" && password2 != "" && address != "" && password1 === password2
         && isNotPhoneNumber && phoneNumber.length === 10 && password1.length >= 6 && password1.length <= 20
-        && password2.length >= 6 && password2.length <= 20) {
+        && password2.length >= 6 && password2.length <= 20 && phoneNumber !== ADMIN_ACCOUNT) {
         let random = Math.floor(Math.random() * 9000) + 1000;
         let OTP = prompt("Nhập mã OTP: " + random);
         if (random == OTP) {

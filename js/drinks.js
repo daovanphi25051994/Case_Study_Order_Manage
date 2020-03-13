@@ -45,3 +45,56 @@ function showDrinks() {
     document.getElementById("drinks-table").innerHTML = content;
 }
 
+function plusAmount(i, j) {
+    let amount = parseInt(document.getElementById("id" + i + j).value);
+    if (amount < arrayDrinks[i][j].amount) {
+        amount++;
+        document.getElementById("id" + i + j).value = amount;
+        let nameBill = arrayDrinks[i][j].nameDrink;
+        let amountBill = amount;
+        let sumMoneyBill = amount * arrayDrinks[i][j].price;
+        let bill = new Bill(arrayUsers[0].phoneNumber, arrayUsers[0].address, nameBill, amountBill, sumMoneyBill);
+        for (let i = 0; i < arrayBills.length; i++) {
+            if (arrayBills[i].nameDrink == nameBill) {
+                arrayBills[i].amount = amountBill;
+                arrayBills[i].sumMoney = sumMoneyBill;
+                showBill();
+                return;
+            }
+        }
+        arrayBills.push(bill);
+        showBill();
+    }
+}
+
+function minusAmount(indexCols, indexRows) {
+    let amount = parseInt(document.getElementById("id" + indexCols + indexRows).value);
+    if (amount > 1) {
+        amount--;
+        document.getElementById("id" + indexCols + indexRows).value = amount;
+        let nameBill = arrayDrinks[indexCols][indexRows].nameDrink;
+        let amountBill = amount;
+        let sumMoneyBill = amount * arrayDrinks[indexCols][indexRows].price;
+        let bill = new Bill(arrayUsers[0].phoneNumber, arrayUsers[0].address, nameBill, amountBill, sumMoneyBill);
+        for (let i = 0; i < arrayBills.length; i++) {
+            if (arrayBills[i].nameDrink == nameBill) {
+                arrayBills[i].amount = amountBill;
+                arrayBills[i].sumMoney = sumMoneyBill;
+                showBill();
+                return;
+            }
+        }
+        arrayBills.push(bill);
+        showBill();
+    } else if (amount === 1) {
+        amount--;
+        document.getElementById("id" + indexCols + indexRows).value = amount;
+        for (let x = 0; x < arrayBills.length; x++) {
+            if (arrayBills[x].nameDrink === arrayDrinks[indexCols][indexRows].nameDrink) {
+                arrayBills.splice(x, 1);
+                showBill();
+                break;
+            }
+        }
+    }
+}
