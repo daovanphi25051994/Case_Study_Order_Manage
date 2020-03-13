@@ -38,7 +38,7 @@ function updateData() {
     for (let i = 0; i < DEFAULT_ROWS; i++) {
         content += "<tr>";
         for (let j = 0; j < DEFAULT_COLUMNS; j++) {
-            content += "<td><img src=" + arrayDrinks[i][j].image + "><h2>" + arrayDrinks[i][j].nameDrink + "</h2>" +
+            content += "<td><img src=." + arrayDrinks[i][j].image + "><h2>" + arrayDrinks[i][j].nameDrink + "</h2>" +
                 "<p>Amount: " + arrayDrinks[i][j].amount + "</p><p>Price: " + arrayDrinks[i][j].price + " VND</p>" +
                 "<input type='file' id='file" + i + j + "'><button onclick='changeImageDrink(" + i + "," + j + ")'>changeImageDrink</button>" +
                 "<br><button onclick='changeNameDrink(" + i + "," + j + ")'>changeNameDrink</button>" +
@@ -54,7 +54,7 @@ function updateData() {
 function changeImageDrink(i, j) {
     let beginSrcImage = document.getElementById("file" + i + j).value;
     let afterSrcImage = beginSrcImage.substring(12, beginSrcImage.length);
-    let newSrcImage = "../images/" + afterSrcImage;
+    let newSrcImage = "./images/" + afterSrcImage;
     if (newSrcImage != null && beginSrcImage !== "") {
         arrayDrinks[i][j].image = newSrcImage;
     }

@@ -6,13 +6,13 @@ function login() {
     for (let i = 0; i < arrayUsers.length; i++) {
         if (arrayUsers[i].phoneNumber == phoneNumber && arrayUsers[i].password == password) {
             alert("đăng nhập thành công");
-            document.getElementById("form").action = "index.html";
+            document.getElementById("form").action = "../index.html";
             return;
         }
     }
     if (phoneNumber == ADMIN_ACCOUNT && password == ADMIN_PASSWORD){
         alert("đăng nhập thành công");
-        document.getElementById("form").action = "admin.html";
+        document.getElementById("form").action = "./admin.html";
         return;
     }
     alert("Sai tên đăng nhập hoặc mật khẩu");

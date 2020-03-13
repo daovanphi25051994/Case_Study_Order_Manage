@@ -12,7 +12,7 @@
     color: red;
 }
 
-.form {
+#form {
     width: 450px;
     height: 620px;
     border: solid 1px gainsboro;
@@ -77,7 +77,7 @@
     background: #da4b3a;
 }
 
-.form p {
+#form p {
     font-size: 18px;
     color: gray;
 }

@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="27bbb6dd-ceab-42ff-a622-e6f016673f4d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bills.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/drinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/drinks.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/register.js" afterDir="false" />
@@ -42,6 +42,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../TrelloBaiTap2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ad05n\Desktop\CodeGym\Module1_BP2.0\Case_Study_Order_Manage" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -61,6 +66,8 @@
       <workItem from="1584010466340" duration="598000" />
       <workItem from="1584016868784" duration="6513000" />
       <workItem from="1584062815980" duration="5736000" />
+      <workItem from="1584071032537" duration="1697000" />
+      <workItem from="1584073776542" duration="1108000" />
     </task>
     <servers />
   </component>
